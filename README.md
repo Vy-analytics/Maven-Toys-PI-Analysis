@@ -46,3 +46,12 @@ sales[Revenue] - sales[Cost]
 ### 5.1. OverView
 <img width="1376" height="772" alt="image" src="https://github.com/user-attachments/assets/ff6b1dc8-465c-4675-a7bd-2d45931f7c16" />
 
+---
+
+- Tổng doanh thu tính đến nay là 14,44 triệu đô la, bao gồm lợi nhuận ròng 4,01 triệu đô la được tạo ra từ 1,09 triệu sản phẩm đã bán, cho thấy chuỗi cửa hàng đồ chơi này có tỷ suất lợi nhuận dương.
+- 5 sản phẩm mang lại lợi nhuận cao nhất là: Colorbuds, Acton Figure, Lego Bricks, Deck of Cards, Glass Marbels.
+- Có một xu hướng chung trong số liệu bán hàng tháng 2 và tháng 8, đó là doanh số bán hàng thấp hơn so với các tháng cùng kỳ năm trước. Cần triển khai các chiến lược tiếp thị để thúc đẩy doanh số bán hàng trong giai đoạn này.
+- Toys là mặt hàng có doanh thu cao nhất, tiếp theo là Arts & Crafts..
+- Việc kinh doanh tại khu Downtown đang phát triển mạnh, trong khi kinh doanh Toys  Airport lại không được tốt.
+=> Do đó, cần đưa ra quyết định về tương lai của các cửa hàng tại sân bay dựa trên dòng tiền thu được từ từng cửa hàng cụ thể.
+
