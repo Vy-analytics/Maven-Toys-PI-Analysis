@@ -28,10 +28,10 @@ Dữ liệu được thiết kế theo mô hình **Star Schema** nhằm tối ư
 ---
 
 ## 4. Xử lý dữ liệu & DAX
-Bảng **Sales** ban đầu không có sẵn các thông tin về **Cost**, **Revenue** và **Profit**.  
-Do đó, các cột này được tính toán bổ sung dựa trên số lượng bán và thông tin giá sản phẩm từ bảng **Products**.
 
-```DAX
+Bảng **Sales** ban đầu không có sẵn các thông tin về **Cost**, **Revenue** và **Profit**.  
+Do đó, các chỉ số này được tính toán bổ sung dựa trên số lượng bán và thông tin giá sản phẩm từ bảng **Products**.
+
 Cost =
 sales[Units] * RELATED ( products[Product_Cost] )
 
@@ -40,4 +40,9 @@ sales[Units] * RELATED ( products[Product_Price] )
 
 Profit =
 sales[Revenue] - sales[Cost]
+
+---
+## 5. Trực quan hóa với Power PI
+### 5.1. OverView
+<img width="1376" height="772" alt="image" src="https://github.com/user-attachments/assets/ff6b1dc8-465c-4675-a7bd-2d45931f7c16" />
 
